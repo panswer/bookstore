@@ -1,0 +1,26 @@
+{
+  "name": "solidity_server",
+  "version": "1.0.0",
+  "description": "server for solidity",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "keywords": [
+    "solidity",
+    "express"
+  ],
+  "author": "ricardo mejias",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
